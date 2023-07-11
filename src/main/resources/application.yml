@@ -28,6 +28,11 @@ spring:
         default_batch_fetch_size: 100
     open-in-view: false
     defer-datasource-initialization: true # data.sql 파일로 initialize 초기화 시키기 위해
+
+kakao:
+  rest:
+    api:
+      key: ${KAKAO_REST_API_KEY}
 ---
 spring:
   config:
